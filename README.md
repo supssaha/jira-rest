@@ -17,8 +17,8 @@ var jira = require('jira-rest');
 var config = {
     "url": "http://jira.example.com",
     "authorization": {
-        "username": "username",
-        "password": "password"
+        "username": "xyz",
+        "password": "***************"
     }
 };
 var jiraconnection = jira.connect(config);
@@ -38,7 +38,7 @@ jiraconnection.fetchProjects(function(error, data) {
 
 ```javascript
 jiraconnection.fetchProject({
-    projectid: xxxx
+    projectid: "xxxx"
 }, function(error, data, config) {
     // statement
 });
@@ -48,8 +48,8 @@ jiraconnection.fetchProject({
 
 ```javascript
 jiraconnection.fetchProjectVersions({
-    projectid: xxxx,
-    rapidviewid: yyyy
+    projectid: "xxxx",
+    rapidviewid: "yyyy"
 }, function(error, data, config) {
     //statement
 });
@@ -59,9 +59,9 @@ jiraconnection.fetchProjectVersions({
 
 ```javascript
 jiraconnection.fetchProjectVersion({
-    projectid: xxxx,
-    rapidviewid: yyyy,
-    versionid: zzzz
+    projectid: "xxxx",
+    rapidviewid: "yyyy",
+    versionid: "zzzz"
 }, function(error, data, config) {
     //statement
 });
@@ -71,9 +71,9 @@ jiraconnection.fetchProjectVersion({
 
 ```javascript
 jiraconnection.fetchProjectVersionDefectsCreated({
-    projectid: xxxx,
-    startdate: YYYY-MM-DD hh:mm,
-    enddate: YYYY-MM-DD hh:mm
+    projectid: "xxxx",
+    startdate: "YYYY-MM-DD hh:mm",
+    enddate: "YYYY-MM-DD hh:mm"
 }, function(error, data, config) {
     //statement
 });
@@ -83,10 +83,10 @@ jiraconnection.fetchProjectVersionDefectsCreated({
 
 ```javascript
 jiraconnection.fetchProjectVersionDefectsResolved({
-    projectid: xxxx,
-    versionid: zzzz,
-    startdate: YYYY-MM-DD hh:mm,
-    enddate: YYYY-MM-DD hh:mm
+    projectid: "xxxx",
+    versionid: "zzzz",
+    startdate: "YYYY-MM-DD hh:mm",
+    enddate: "YYYY-MM-DD hh:mm"
 }, function(error, data, config) {
     //statement
 });
@@ -96,7 +96,7 @@ jiraconnection.fetchProjectVersionDefectsResolved({
 
 ```javascript
 jiraconnection.fetchProjectSprints({
-    projectid: xxxx
+    projectid: "xxxx"
 }, function(error, data, config) {
     //statement
 });
@@ -106,8 +106,8 @@ jiraconnection.fetchProjectSprints({
 
 ```javascript
 jiraconnection.fetchProjectSprint({
-    rapidviewid: yyyy,
-    sprintid: zzzz
+    rapidviewid: "yyyy",
+    sprintid: "zzzz"
 }, function(error, data, config) {
     //statement
 });
@@ -117,9 +117,9 @@ jiraconnection.fetchProjectSprint({
 
 ```javascript
 jiraconnection.fetchProjectSprintDefectsCreated({
-    projectid: xxxx,
-    startdate: YYYY-MM-DD hh:mm,
-    enddate: YYYY-MM-DD hh:mm
+    projectid: "xxxx",
+    startdate: "YYYY-MM-DD hh:mm",
+    enddate: "YYYY-MM-DD hh:mm"
 }, function(error, data, config) {
     //statement
 });
@@ -129,9 +129,9 @@ jiraconnection.fetchProjectSprintDefectsCreated({
 
 ```javascript
 jiraconnection.fetchProjectSprintDefectsResolved({
-    projectid: xxxx,
-    startdate: YYYY-MM-DD hh:mm,
-    enddate: YYYY-MM-DD hh:mm
+    projectid: "xxxx",
+    startdate: "YYYY-MM-DD hh:mm",
+    enddate: "YYYY-MM-DD hh:mm"
 }, function(error, data, config) {
     //statement
 });
@@ -141,9 +141,9 @@ jiraconnection.fetchProjectSprintDefectsResolved({
 
 ```javascript
 jiraconnection.fetchProjectSprintDefectsUnresolved({
-    projectid: xxxx,
-    startdate: YYYY-MM-DD hh:mm,
-    enddate: YYYY-MM-DD hh:mm
+    projectid: "xxxx",
+    startdate: "YYYY-MM-DD hh:mm",
+    enddate: "YYYY-MM-DD hh:mm"
 }, function(error, data, config) {
     //statement
 });
@@ -153,7 +153,7 @@ jiraconnection.fetchProjectSprintDefectsUnresolved({
 
 ```javascript
 jiraconnection.fetchProjectDefectsBySeverity({
-    projectid: xxxx
+    projectid: "xxxx"
 }, function(error, data, config) {
     //statement
 });
@@ -163,7 +163,7 @@ jiraconnection.fetchProjectDefectsBySeverity({
 
 ```javascript
 jiraconnection.fetchProjectDefectsByEnvironment({
-    projectid: xxxx
+    projectid: "xxxx"
 }, function(error, data, config) {
     //statement
 });
