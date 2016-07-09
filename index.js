@@ -1,10 +1,3 @@
-/**
- * jira
- * Copyright(c) 2014-2015
- * @author: Pradeep Patro <pradeeppatro16@gmail.com>
- *          Lovely Upadhyay <lovely.upadhyay@gmail.com>
- * MIT Licensed
- */
 (function () {
     'use strict';
     var Classes = Object.create(null);
@@ -27,11 +20,12 @@
         var JiraConfig = loadClass('jiraConfig');
         return new JiraConnect({config: new JiraConfig(config)});
     };
+
     /**
      * Load the given class.
      * @private
      */
-    function loadClass(className) {
+    var loadClass = function (className) {
         var Class = Classes[className];
 
         if (Class !== undefined) {

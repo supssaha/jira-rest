@@ -1,22 +1,21 @@
 {
-  "name": "jira",
-  "version": "0.0.1",
-  "description": "Atlasian Jira Api",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": "git@bitbucket.org:smartameer/jira.git",
-  "keywords": [
-    "Jira"
-  ],
-  "author": [
-      "Pradeep Patro <pradeeppatro16@gmail.com>",
-      "Lovely Upadhyay <lovely.upadhyay@gmail.com>"
-  ],
-  "license": "MIT",
-  "dependencies": {
-    "btoa": "^1.1.2",
-    "request": "^2.60.0"
-  }
+    "name": "jira-rest",
+    "version": "0.0.1",
+    "description": "Atlasian Jira Api",
+    "main": "index.js",
+    "repository": "git@github.com:smartameer/jira-rest.git",
+    "keywords": [
+        "Jira",
+        "NodeJs",
+        "API"
+    ],
+    "author": {
+        "name": "Pradeep Patro",
+        "email": "smartameer@icloud.com"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "btoa": "^1.1.2",
+        "request": "^2.60.0"
+    }
 }
