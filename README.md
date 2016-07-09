@@ -168,3 +168,8 @@ jiraconnection.fetchProjectDefectsByEnvironment({
     //statement
 });
 ```
+
+## Features
+
+* supports only basic authentication
+* supports non-secured api url (http)
