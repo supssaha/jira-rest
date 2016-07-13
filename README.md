@@ -169,7 +169,108 @@ jiraconnection.fetchProjectDefectsByEnvironment({
 });
 ```
 
+##### Single Project's Defects Age Less than 15 days
+
+```javascript
+jiraconnection.fetchProjectDefectsByAgeLess15d({
+    projectid: "xxxx"
+}, function(error, data, config) {
+    //statement
+});
+```
+
+##### Single Project's Defects Age More than 15 days & Less than 30 days
+
+```javascript
+jiraconnection.fetchProjectDefectsByAgeLess30d({
+    projectid: "xxxx"
+}, function(error, data, config) {
+    //statement
+});
+```
+
+##### Single Project's Defects Age More than 30 days & Less than 60 days
+
+```javascript
+jiraconnection.fetchProjectDefectsByAgeLess60d({
+    projectid: "xxxx"
+}, function(error, data, config) {
+    //statement
+});
+```
+
+##### Single Project's Defects Age More than 60 days & Less than 90 days
+
+```javascript
+jiraconnection.fetchProjectDefectsByAgeLess90d({
+    projectid: "xxxx"
+}, function(error, data, config) {
+    //statement
+});
+```
+
+##### Single Project's Defects Age More than 90 days
+
+```javascript
+jiraconnection.fetchProjectDefectsByAgeMore90d({
+    projectid: "xxxx"
+}, function(error, data, config) {
+    //statement
+});
+```
+
+##### Defects Resoulution Time Report Less than 15 days
+
+```javascript
+jiraconnection.fetchProjectDefectsResolutionLess15d({
+    projectid: "xxxx"
+}, function(error, data, config) {
+    //statement
+});
+```
+
+##### Defects Resoulution Time Report More than 15 days & Less than 30 days
+
+```javascript
+jiraconnection.fetchProjectDefectsResolutionLess30d({
+    projectid: "xxxx"
+}, function(error, data, config) {
+    //statement
+});
+```
+
+##### Defects Resoulution Time Report More than 30 days & Less than 60 days
+
+```javascript
+jiraconnection.fetchProjectDefectsResolutionLess60d({
+    projectid: "xxxx"
+}, function(error, data, config) {
+    //statement
+});
+```
+
+##### Defects Resoulution Time Report More than 60 days & Less than 90 days
+
+```javascript
+jiraconnection.fetchProjectDefectsResolutionLess90d({
+    projectid: "xxxx"
+}, function(error, data, config) {
+    //statement
+});
+```
+
+##### Defects Resoulution Time Report More than 90 days
+
+```javascript
+jiraconnection.fetchProjectDefectsResolutionMore90d({
+    projectid: "xxxx"
+}, function(error, data, config) {
+    //statement
+});
+```
+
 ## Features
 
+* supports read only operation
 * supports only basic authentication
 * supports non-secured api url (http)
