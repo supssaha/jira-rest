@@ -25,7 +25,7 @@
      * Load the given class.
      * @private
      */
-    var loadClass = function (className) {
+    function loadClass (className) {
         var Class = Classes[className];
 
         if (Class !== undefined) {
