@@ -2,7 +2,7 @@
 
 This gives access to most Jira Rest API data
 
-[![Build Status](https://travis-ci.org/smartameer/jira-rest.svg?branch=master)](https://travis-ci.org/smartameer/jira-rest) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000?style=plastic)](https://github.com/smartameer/jira-rest/blob/master/License.md) [![npm version](https://badge.fury.io/js/jira-rest.svg)](https://badge.fury.io/js/jira-rest) [![Project Status](https://img.shields.io/badge/Project%20Status-Stable-brightgreen.svg?maxAge=2592000?style=plastic)](https://www.npmjs.com/package/jira-rest)
+[![Build Status](https://travis-ci.org/smartameer/jira-rest.svg?branch=master)](https://travis-ci.org/smartameer/jira-rest) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000?style=plastic)](https://github.com/smartameer/jira-rest/blob/master/LICENSE) [![npm version](https://badge.fury.io/js/jira-rest.svg)](https://badge.fury.io/js/jira-rest) [![Project Status](https://img.shields.io/badge/Project%20Status-Stable-brightgreen.svg?maxAge=2592000?style=plastic)](https://www.npmjs.com/package/jira-rest)
 
 ## Installation
 
