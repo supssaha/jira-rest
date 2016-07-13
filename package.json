@@ -1,6 +1,6 @@
 {
     "name": "jira-rest",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Atlasian Jira Api",
     "main": "index.js",
     "repository": "git@github.com:smartameer/jira-rest.git",
