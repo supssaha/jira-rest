@@ -2,6 +2,8 @@
 
 This gives access to most Jira Rest API data
 
+[![Build Status](https://travis-ci.org/smartameer/jira-rest.svg?branch=master)](https://travis-ci.org/smartameer/jira-rest)
+
 ## Installation
 
 ```shell
